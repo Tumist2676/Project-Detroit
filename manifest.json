@@ -1,0 +1,24 @@
+{
+    "author": "Tumist2676",
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "description": "This extension adds a button to contex menu, which allows to search selected text with Google",
+    "icons": {
+        "20": "icons/20px.png",
+        "25": "icons/25px.png",
+        "30": "icons/30px.png",
+        "40": "icons/40px.png"
+    },
+    "name": "Google Contex Search",
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "version": "0.2.0.3",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}
